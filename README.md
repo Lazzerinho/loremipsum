@@ -26,10 +26,10 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ```bash 
  # Clonar o repositório
- $ git clone https://github.com/vinilazzeri/loremipsum
+ $ git clone https://github.com/vinilazzeri/lorem
 
  # Entrar no diretório
-$ cd loremipsum
+$ cd lorem
 
 # Instalar as dependências
 $ yarn install
