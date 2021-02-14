@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simular Investimento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- Ao clicar em simular investimento, um dialog deverá ser exibido contendo um
+input numérico para o valor total de investimento (250000,50 por exemplo) e um
+botão para realizar o cálculo de retorno do investimento. Ao clicar no botão, o
+sistema deverá calcular e apresentar o valor, mantendo as informações na tela -->
+
+<body>
+   <header><h1>Simulador de Investimentos</h1></header>
+   <section>
+       <div>
+        Valor total de Investimento: R&dollar;<input id="quantia" type="number" min="1000" max="10000000"><br>
+        <div id= risco>
+            Grau de Risco: <input type="radio" name="risco" id="baixo" value="0"> <label for="baixo">Baixo</label>
+            <input type="radio" name="risco" id="medio" value="1"> <label for="medio">Médio</label>
+            <input type="radio" name="risco" id="alto" value="2"> <label for="alto">Alto</label>
+        </div>
+            <button type="submit" onclick="calculoInvestimento()">Simular!</button><button type="button" onclick="window.location.href= 'principal.html'">Voltar</button>
+       </div>
+   </section>
+<footer>
+<p>&copy;Lorem Ipsum Inc.</p>
+</footer>  
+</body>
+<script src="script.js"></script>
+</html>

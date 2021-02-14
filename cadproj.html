@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastrar Projeto</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Projeto: </h1>
+    </header>
+        <section class="formulario">
+            <fieldset>
+                <div>
+                    <label for="nomeProjeto"><strong>Nome do Projeto:</strong></label> <input type="text" name="nome" id="nomeProjeto" size="26" maxlength="30" placeholder="Nome do Projeto..." required>
+                </div>
+                <div>
+                    <label for="dateInicio"><strong>Início do Projeto:</strong></label> <input type="date" name="inicioProjeto" id="dateInicio" required> <br>
+                    <label for="dateFim"><strong>Conclusão do Projeto:</strong></label> <input type="date" name="fimProjeto" id="dateFim" required>
+                </div>
+                <div>
+                    <strong><label for="valorProjeto">Valor do Projeto: R&dollar;</label></strong><input type="number" name="valorDoProjeto" id="valorProjeto" required>
+                </div>
+                <div class="campo">
+                    <strong>Risco do Projeto:</strong>
+                    <input type="radio" name="risco" id="baixo" value="0"> <label for="baixo">Baixo</label>
+                    <input type="radio" name="risco" id="medio" value="1"> <label for="medio">Médio</label>
+                    <input type="radio" name="risco" id="alto" value="2"> <label for="alto">Alto</label>
+                </div>
+                <div>
+                    <strong><label for="integrantes">Integrante(s):</label></strong><br><textarea name="nomeDosIntegrantes" id="integrantes" cols="50" rows="10" placeholder="Identificação do participante. (Em caso  de 2 ou mais, separar por ';')." ></textarea>
+                </div>
+            </fieldset>
+        </section>
+        <button type="submit" id="submitbutton" onclick="alert('Projeto registrado!')">Enviar Projeto</button> <button type="button" onclick="window.location.href= 'principal.html'">Voltar</button>
+<footer>
+<p>&copy;Lorem Ipsum Inc.</p></footer>  
+</body>
+</html>
