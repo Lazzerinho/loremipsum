@@ -31,13 +31,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
  # Entrar no diretório
 $ cd loremipsum
 
-# Instalar as dependências
-$ yarn install
-
-# Iniciar o projeto
-$ yarn start
-```
-
 ---
 
 Desenvolvido por 🪕 Vinicius Lazzeri.
