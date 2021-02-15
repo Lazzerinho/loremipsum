@@ -31,6 +31,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
  # Entrar no diretório
 $ cd loremipsum
 
+```
 ---
 
 Desenvolvido por 🪕 Vinicius Lazzeri.
